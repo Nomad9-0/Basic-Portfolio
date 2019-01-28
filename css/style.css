@@ -70,6 +70,42 @@ h2 {
     color: #4aaaa5;
 }
 
+/* Portfolio */
+.port-img {
+    padding-top: 20px;
+}
+
+.row {
+    padding-bottom: 40px;
+}
+
+img {
+    padding-right: 25px;
+}
+
+.img-txt {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    position: relative;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centered {
+    position: absolute;
+    background: #4aaaa5;
+    padding: 20px 109px 20px 109px;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 25px;
+    font-size: 20px;
+}
+
 /* Footer */
 .footer {
     background-color: grey;
