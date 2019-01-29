@@ -41,6 +41,10 @@ h1 {
     color: #777777
 }
 
+ul li:hover {
+    color: #4aaaa5;
+}
+
 ul {
     list-style-type: none;
     margin-bottom: 0px;
@@ -99,11 +103,43 @@ img {
 .centered {
     position: absolute;
     background: #4aaaa5;
-    padding: 20px 109px 20px 109px;
+    padding: 20px 111px 20px 111px;
     color: rgb(255, 255, 255);
-    bottom: 0;
+    bottom: 25px;
     right: 25px;
     font-size: 20px;
+}
+
+/* Contact */
+.input-info {
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+#submit{
+    padding: 8px 20px;
+    background: #4aaaa5;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#submit:hover {
+    background: #777777;
+    color: white;
 }
 
 /* Footer */
