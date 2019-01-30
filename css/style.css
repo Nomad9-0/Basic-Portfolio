@@ -1,3 +1,7 @@
+html{
+    position: relative;
+}
+
 header {
     background-color: #ffffff;
     color: #777777;
@@ -146,7 +150,11 @@ textarea {
 }
 
 /* Footer */
-.footer {
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: grey;
     border-top-style: solid;
     border-top-width: thick;
@@ -155,10 +163,4 @@ textarea {
     text-align: center;
     padding-top: 20px;
     font-size: 10px;
-    padding-bottom: 1px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
 }
